@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #222;
+  color: #eee;
+}
+
+header {
+  height: 300px;
+  border-bottom: 10px solid #eee;
+  position: relative;
+}
+.againBox {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.between {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+.question {
+  color: #222;
+  background-color: #eee;
+  padding: 30px 40px;
+  position: absolute;
+  font-size: 80px;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+.guess {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+}
+.checkScore {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.inputNumber {
+  font-size: 70px;
+  width: 200px;
+  display: block;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.left {
+  text-align: center;
+}
