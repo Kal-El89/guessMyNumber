@@ -10,17 +10,18 @@ body {
 }
 
 header {
-  height: 300px;
+  height: 35vh;
   border-bottom: 10px solid #eee;
   position: relative;
 }
-.againBox {
+.again-box {
   padding: 15px 30px;
   font-size: 20px;
   font-family: "Press Start 2P", cursive;
   position: absolute;
   top: 20px;
   left: 20px;
+  cursor: pointer;
 }
 .between {
   position: absolute;
@@ -46,20 +47,46 @@ header {
   width: 100%;
   font-size: 50px;
 }
-.checkScore {
+/* body */
+.check-score {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 300px;
+  height: 18rem;
+  margin-top: 6rem;
 }
-.inputNumber {
+/* numbers & check section */
+.left {
+  text-align: center;
+}
+.check-box {
+  padding: 15px 30px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  cursor: pointer;
+}
+.input-number {
   font-size: 70px;
-  width: 200px;
+  width: 160px;
   display: block;
   height: 100px;
   padding: 10px;
   text-align: center;
+  background-color: #222;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  color: #eee;
 }
-.left {
-  text-align: center;
+/* scores section */
+
+.label-start {
+  padding-bottom: 5rem;
+  font-size: 1.5rem;
+}
+.label-score {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.Label-highscore {
+  font-size: 1.5rem;
 }
