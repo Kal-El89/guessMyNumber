@@ -38,7 +38,7 @@ header {
   bottom: 0;
   transform: translate(-50%, 50%);
 }
-.guess {
+.guess-my-number {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -65,7 +65,7 @@ header {
   font-family: "Press Start 2P", cursive;
   cursor: pointer;
 }
-.input-number {
+.guess {
   font-size: 70px;
   width: 160px;
   display: block;
@@ -76,6 +76,7 @@ header {
   border: 2px solid #eee;
   border-radius: 3px;
   color: #eee;
+  font-family: "Press Start 2P", cursive;
 }
 /* scores section */
 
