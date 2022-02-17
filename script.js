@@ -1,6 +1,6 @@
 "use strict";
 
-let guessNumber = Math.floor(Math.random() * 2) + 1;
+let guessNumber = Math.floor(Math.random() * 20) + 1;
 
 let score = 20;
 let highScore = 0;
@@ -41,7 +41,7 @@ document.querySelector(".check-box").addEventListener("click", function () {
 });
 
 document.querySelector(".again-box").addEventListener("click", function () {
-  guessNumber = Math.floor(Math.random() * 2) + 1;
+  guessNumber = Math.floor(Math.random() * 20) + 1;
   score = 20;
   document.querySelector(".score").textContent = score;
   questionNumber("?");
