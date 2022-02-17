@@ -46,4 +46,6 @@ document.querySelector(".again-box").addEventListener("click", function () {
   document.querySelector(".score").textContent = score;
   questionNumber("?");
   changeTheme("#222");
+  message("Start guessing...");
+  guess = document.querySelector(".guess").value = "";
 });
