@@ -80,7 +80,7 @@ header {
   font-family: "Press Start 2P", cursive;
 }
 .right {
-  width: 13rem;
+  width: 26rem;
 }
 /* scores section */
 
@@ -125,5 +125,8 @@ header {
   }
   .Label-highscore {
     font-size: 0.75rem;
+  }
+  .right {
+    width: 13rem;
   }
 } ;

@@ -31,7 +31,7 @@ document.querySelector(".check-box").addEventListener("click", function () {
     score--;
     document.querySelector(".score").textContent = score;
     document.querySelector(".label-start").textContent =
-      guess > guessNumber ? "📈 Too high" : "📉 Too low";
+      guess > guessNumber ? " Too high" : " Too low";
     if (score <= 0) {
       message("😈 You lose");
       changeTheme("#FF0000");
