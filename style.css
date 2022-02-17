@@ -79,6 +79,9 @@ header {
   color: #eee;
   font-family: "Press Start 2P", cursive;
 }
+.right {
+  width: 13rem;
+}
 /* scores section */
 
 .label-start {
